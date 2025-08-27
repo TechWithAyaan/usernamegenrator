@@ -4,3 +4,8 @@
 var fa = Math.floor(Math.random() * 100)
 var result = sign +userName+fa;
 var userdiv = document.getElementById("generateName").innerHTML = result
+
+function copy(){
+    navigator.clipboard.writeText(result)
+    alert("Copied" +result)
+}

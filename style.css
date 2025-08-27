@@ -6,9 +6,25 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 #generateName{
     font-size: 80px;
     font-family: Arial, Helvetica, sans-serif;
     color: #39ff14;         
+}
+.hacker-btn {
+background-color: #39ff14;
+width: 20%;
+padding: 20px;
+border-radius: 50px;
+font-size: 30px;
+cursor: pointer;
+}
+
+.hacker-btn:hover {
+    transition: 0.4s;
+    box-shadow: 10px 0px 40px #39ff14;
+    font-weight: bold;
+transform: scale(1.05);
 }
